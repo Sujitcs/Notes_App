@@ -2,7 +2,7 @@ const notesContainer = document.querySelector(".notes-container");
 const createBtn = document.querySelector(".btn");
 
 // Array of colors for different notes
-const colors = ["#FFDDC1", "#FFC0CB", "#FFEB3B", "#C1E1C1", "#ADD8E6", "#D8BFD8"];
+const colors = [" #FFDDC1", "rgb(197, 142, 151)", "rgb(150, 127, 240)", " #C1E1C1", " #ADD8E6", "rgb(248, 119, 248)"," #05f7bb"," #9bfa9b"," #a4e3f5","rgb(116, 246, 142)"];
 
 function showNotes() {
   notesContainer.innerHTML = localStorage.getItem("notes") || "";
